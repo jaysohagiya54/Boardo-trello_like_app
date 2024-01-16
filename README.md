@@ -34,8 +34,7 @@ To get started with BOARDO, follow these steps:
 3. **Open in Browser:**
 Open your preferred web browser and navigate to http://localhost:3000 to start using BOARDO.
 
-
-Usage
+##  Usage
 Create a New Task:
 
 Click on the '+' button to add a new task.
