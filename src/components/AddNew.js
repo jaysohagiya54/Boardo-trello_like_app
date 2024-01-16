@@ -1,11 +1,11 @@
 import React, { useState, useRef } from "react";
 import { addList, addCard } from "../store/listSlice";
-import { useDispatch } from "react-redux";
+import { useSelector,useDispatch } from "react-redux";
 const AddNew = ({ type, parentId }) => {
   const [inputVal, setInputVal] = useState("");
   const [isFormVisible, setIsFormVisible] = useState(false);
   // console.log("type", type);
-
+  const listItem = useSelector((store) => store.listSlice.list);
   const dispatch = useDispatch();
   const forminput = useRef(null);
   const submitHandler = (e) => {
@@ -16,7 +16,7 @@ const AddNew = ({ type, parentId }) => {
     }
     if (type) {
       dispatch(
-        addCard({ id: Math.random(), title: inputVal, parentId: parentId })
+        addCard({ id: Math.random(), title: inputVal, parentId: parentId,createdBy:"Jay Sohagiya",createdDate:new Date().toDateString() })
       );
     } else {
       dispatch(addList({ id: Math.random(), title: inputVal }));
