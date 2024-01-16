@@ -26,3 +26,36 @@ To get started with BOARDO, follow these steps:
    git clone https://github.com/jaysohagiya54/Boardo-trello_like_app.git
    cd BOARDO
 
+2. **Run the Application:**
+  ```bash
+  npm start
+  The application will be accessible at http://localhost:3000.
+
+3. **Open in Browser:**
+Open your preferred web browser and navigate to http://localhost:3000 to start using BOARDO.
+
+
+Usage
+Create a New Task:
+
+Click on the '+' button to add a new task.
+Enter the task details, including title and description.
+Organize Tasks with Lists:
+
+Create multiple lists to categorize tasks.
+Drag and drop tasks to rearrange them within lists.
+Manage Subtasks:
+
+Click on a task to view details.
+Add, update, or delete subtasks as needed.
+Update and Delete:
+
+Click on a task or subtask to access the update and delete options.
+Task Reminders:
+
+Set reminders for important tasks to stay on track.
+Contributing
+We welcome contributions from the community. If you'd like to contribute to BOARDO, please follow our Contribution Guidelines.
+
+License
+This project is licensed under the MIT License.
