@@ -22,6 +22,7 @@ BOARDO is a web-based task management application designed to help users organiz
 To get started with BOARDO, follow these steps:
 
 1. **Clone the Repository:**
- 
-   git clone https://github.com/your-username/BOARDO.git](https://github.com/jaysohagiya54/Boardo-trello_like_app.git)https://github.com/jaysohagiya54/Boardo-trello_like_app.git
+   ```bash
+   git clone https://github.com/jaysohagiya54/Boardo-trello_like_app.git
    cd BOARDO
+
